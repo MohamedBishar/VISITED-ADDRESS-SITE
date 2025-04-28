@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   taskForm.addEventListener("submit", function(event) {
     event.preventDefault();
-    const description = document.getElementById("task").value;
+    const description = document.getElementById ("task").value;
     const newTask = new Task(description);
 
     const li = document.createElement("li");
