@@ -14,7 +14,7 @@ function Task(description) {
   this.done = false;
 }
 
-Task.prototype.toggleDone = function() {
+Task.prototype.toggleDone = function(){
   this.done = !this.done;
 };
 
