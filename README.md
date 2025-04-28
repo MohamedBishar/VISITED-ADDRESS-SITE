@@ -75,6 +75,18 @@ A: Constructors create objects. Prototypes add shared methods and properties tha
 - Tested all features including form submissions, list displays, task toggling, and removal.
 - Ensured that everything works as expected and made minor adjustments for better functionality.
 
+- ## Added Placeholder Text and Basic UI Styling
+
+- Implemented placeholder text for input fields to guide the user.
+- Added basic CSS styling to improve the user interface of the Address Book, Places You've Been, and To-Do List sections.
+
+
+- ## Final Commit - Completed Project
+
+- Completed the project with all features working.
+- The project includes an Address Book, a Places You've Been section, and a To-Do List.
+
+
 
 
 
