@@ -21,7 +21,7 @@ Task.prototype.toggleDone = function(){
 document.addEventListener("DOMContentLoaded", function() {
   const placeForm = document.getElementById("place-form");
   const placesList = document.getElementById("places-list");
-  const taskForm = document.getElementById("task-form");
+  const taskForm = document.getElementById( "task-form");
   const tasksList = document.getElementById("tasks-list");
 
   placeForm.addEventListener("submit", function(event) {
