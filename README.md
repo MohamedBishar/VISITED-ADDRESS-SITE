@@ -46,7 +46,7 @@ Q: What benefits do constructors offer?
 A: Code reuse, easier organization, and faster creation of many similar objects.
 
 Q: What is a prototype? How does it differ from a constructor?
-A: Constructors create objects. Prototypes add shared methods and properties that all instances can use without duplicating code
+A: Constructors create objects. Prototypes add shared methods and properties that all instances can use without duplicating code 
 
 ## Added Prototype Method for Formatted Display of Address Book Entries
 
