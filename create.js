@@ -5,7 +5,7 @@ function Place(location, landmark, timeOfYear, notes) {
   this.notes = notes;
 }
 
-Place.prototypegetDetails = function() {
+Place.prototype.getDetails = function() {
   return `${this.location} - Landmark: ${this.landmark}, Visited in ${this.timeOfYear}. Notes: ${this.notes}`;
 };
 
