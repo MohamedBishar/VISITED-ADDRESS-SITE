@@ -38,9 +38,6 @@ JavaScript (ES6)
 
 Manual Test-Driven Development (TDD)
 
-🗺 Akan Name Reference Table (NOT USED)
-(The Akan Name part was from your old project and not needed here anymore.)
-
 Warm-Up Questions and Answers
 Q: What is the difference between creating an object using literal notation and using a constructor?
 A: Literal notation creates a single object manually, while a constructor can create multiple similar objects dynamically.
