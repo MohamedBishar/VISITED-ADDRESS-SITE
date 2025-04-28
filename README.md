@@ -65,4 +65,10 @@ A: Constructors create objects. Prototypes add shared methods and properties tha
 
 - Added a constructor function for tasks, with properties for task description and status (whether the task is done or not).
 
+- ## Added Method to Toggle Task Completion
+
+- Implemented a `toggleDone` method for the Task object.
+- This method allows users to mark tasks as completed or uncompleted.
+
+
 
