@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PLACES YOU HAVE BEEN TO AND TASKS TO DO</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <h1>PLACES YOU HAVE BEEN TO</h1>
+
+  <form id="place-form">
+    <label for="location">Location:</label>
+    <input type="text" id="location" required>
+
+    <label for="landmark">Landmark:</label>
+    <input type="text" id="landmark" required>
+
+    <label for="timeOfYear">Time of Year:</label>
+    <input type="text" id="timeOfYear" required>
+
+    <label for="notes">Notes:</label>
+    <textarea id="notes" rows="3" required></textarea>
+
+    <button type="submit">Add Place</button>
+  </form>
+
+  <ul id="places-list"></ul>
+
+  <hr>
+
+  <h1>TASKS TO DO</h1>
+
+  <form id="task-form">
+    <label for="task">New Task:</label>
+    <input type="text" id="task" required>
+    <button type="submit">Add Task</button>
+  </form>
+
+  <ul id="tasks-list"></ul>
+
+  <script src="./create.js"></script>
+</body>
+</html>
