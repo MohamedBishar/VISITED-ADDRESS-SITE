@@ -55,3 +55,9 @@ A: Constructors create objects. Prototypes add shared methods and properties tha
 
 - Added a `getFormattedAddress` prototype method to the Address constructor.
 - This method formats and returns the full address book entry in a user-friendly way.
+
+- ## Implemented Event Listener to Add Address Book Entries
+
+- Added event listener to handle form submissions for adding new address book entries.
+- New entries are created based on user input and displayed in a list on the page.
+
