@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
     li.textContent = newTask.description;
     li.style.cursor = "pointer";
 
-    li.addEventListener("click", function() {
+    li.addEventListener("click", function(){
       newTask.toggleDone();
       if (newTask.done) {
         li.style.textDecoration = "line-through";
