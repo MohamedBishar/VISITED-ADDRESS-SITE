@@ -59,5 +59,10 @@ A: Constructors create objects. Prototypes add shared methods and properties tha
 - ## Implemented Event Listener to Add Address Book Entries
 
 - Added event listener to handle form submissions for adding new address book entries.
-- New entries are created based on user input and displayed in a list on the page.
+- New entries are created based on user input and displayed in a list on the page.\
+
+- ## Created Task Constructor for To-Do List
+
+- Added a constructor function for tasks, with properties for task description and status (whether the task is done or not).
+
 
